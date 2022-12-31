@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException{
         List<List<String>> list = readValues();
-        // System.out.println(list.get(0));  // Prints empty object
+        System.out.println(list.get(0));  // Prints empty object
         List<Integer> valueList = new ArrayList<Integer>();
         List<Integer> weightList = new ArrayList<Integer>();
         for(int i=1;i<list.size();i++) {
@@ -27,7 +27,7 @@ public class Main {
             }
             sequential_data.add(row);
         }
-        // 	System.out.println(sequential_data.get(0).get(1));
+        System.out.println(sequential_data.get(0).get(1));
 
 
 
